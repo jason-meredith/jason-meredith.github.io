@@ -31,7 +31,7 @@ export default function Me(props) {
                   </tr>
                   <tr>
                     <td><img alt="Resume Link" className="linkIcon" src="img/doc.png" /></td>
-                    <td><a target='_blank' href="/resume.pdf">Resume</a></td>
+                    <td><a target='_blank' href="/resume">Resume</a></td>
                   </tr>
                   <br />
                 </tbody>
