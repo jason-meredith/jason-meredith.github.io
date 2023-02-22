@@ -1,0 +1,151 @@
+{
+  "me": {
+    "name": "Jason Meredith",
+    "location": "Canada",
+    "phone": "(613) 606-9233",
+    "email": "jasonmeredith93@gmail.com",
+    "links": {
+      "github": "https://www.github.com/jason-meredith",
+      "linkedin": "https://www.linkedin.com/in/jason-meredith-115b2384/",
+      "email": "jasonmeredith93@gmail.com"
+    }
+  },
+  "experience": [
+    {
+      "company": "Rewind",
+      "title": "Full Stack Cloud Developer",
+      "timespan": "[ Aug 2019 - Present ]",
+      "description": [
+        "Implemented enhancements to company administrative interface to bundle accounts, change billing plans, and cancel subscriptions using Stripe API",
+        "Helped design and build a webhook delay and aggregation solution using AWS Lambda, SQS and DynamoDB",
+        "Building custom objects in Hubspot for tracking customer data in a manner that mirrors internal DB structures",
+        "Built a new on-boarding flow for high value Intuit customers to easily transition into agreed-upon wholesale rates using React and Stripe API",
+        "Lead transition of acquired Github backup solution BackHub into Rewind development pipeline and became subject matter expert for Rewind’s git backup architecture",
+        "Worked after hours week-long on-call shifts, providing quick response technical support for customer issues and system outages",
+        "Spearheaded technical investigations and subsequent efforts into new integrations for our Backup product",
+        "Peformed manual restores of Quickbooks accounts and Shopify stores using combinations of platform APIs and internal tooling",
+        "Assisted in proliferation of the BackHub architecture across AWS regions, providing US-based storage for data sovereignty-minded customers",
+        "Designed and lead development on a per-seat billing system leveraging Stripe, spanning multiple AWS account and system architectures",
+        "Helped design and implement the linking and on-boarding flow of our Jira Backup and Restores product"
+      ],
+      "img": "/img/work/rewind.svg"
+    }
+  ],
+  "education": [
+    {
+      "institute": "Algonquin College",
+      "program": "Computer Programming Diploma",
+      "timespan": "Sep 2017 - Apr 2019",
+      "img": "/img/edu/algonquin.png"
+    },
+    {
+      "institute": "AWS",
+      "program": "Certified Cloud Practitioner",
+      "timespan": "Mar 2022",
+      "img":"/img/edu/aws-ccp.png"
+    }
+  ],
+  "projects": {
+    "skills": [
+      "java",
+      "heroku",
+      "ruby",
+      "golang",
+      "python",
+      "docker",
+      "mysql",
+      "redis",
+      "rails",
+      "elastic",
+      "aws",
+      "mongodb",
+      "nodejs",
+      "terraform",
+      "react",
+      "postgres"
+    ],
+    "projects": [
+      {
+        "name": "ZipCal",
+        "description": "Cloud calendar aggregation and sharing made simple",
+        "github": "https://www.github.com/jason-meredith/chronomancer",
+        "links": [
+          {
+            "label": "Visit",
+            "url": "https://www.chronomancer.io"
+          }
+        ],
+        "tech": [
+          "ruby",
+          "rails",
+          "mysql",
+          "heroku"
+        ]
+      },
+      {
+        "name": "Rails Webpacker Optimization/Overhaul",
+        "description": "Refactoring a monolithic Rails + React Webpacked app to significantly decrease compile time",
+        "github": "",
+        "links": [
+          {
+            "label": "Read about it",
+            "url": "https://rewind.com/blog/optimizing-your-rails-webpacker-compilation/"
+          }
+        ],
+        "tech": [
+          "ruby",
+          "rails",
+          "nodejs",
+          "react"
+        ]
+      },
+      {
+        "name": "Webhook Aggregation",
+        "description": "Aggregating Webhooks with DynamoDB and SQS Delay Queues",
+        "github": "",
+        "links": [
+          {
+            "label": "Read about it",
+            "url": "https://rewind.com/blog/aggregating-webhooks-with-dynamodb-and-sqs-delay-queues/"
+          }
+        ],
+        "tech": [
+          "aws",
+          "nodejs"
+        ]
+      },
+      {
+        "name": "MySQL/MongoDB Benchmark Tester",
+        "description": "A Java Swing application that runs simultaneous insertions statements against a MySQL and a MongoDB database to test for differences in speed based on data complexity",
+        "github": "https://www.github.com/jason-meredith/SQLvsMongoDB-Speedtest",
+        "links": [
+          {
+            "label": "Github",
+            "url": "https://www.github.com/jason-meredith/SQLvsMongoDB-Speedtest"
+          }
+        ],
+        "tech": [
+          "java",
+          "mysql",
+          "mongodb"
+        ]
+      },
+      {
+        "name": "jasonmeredith.io",
+        "description": "Personal porfolio webpage built as a simple React.js app with a dynamically generated resume PDF",
+        "github": "https://www.github.com/jason-meredith/SQLvsMongoDB-Speedtest",
+        "links": [
+          {
+            "label": "Github",
+            "url": "https://www.github.com/jason-meredith/jasonmeredith.io"
+          }
+        ],
+        "tech": [
+          "react",
+          "nodejs",
+          "heroku"
+        ]
+      }
+    ]
+  }
+}
